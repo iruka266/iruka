@@ -1,0 +1,55 @@
+header, footer{
+	display: flex; 
+	justify-content: center;
+}
+.main{
+	display: flex;
+}
+nav{
+	flex: 100px; 
+}
+.content{
+	display: flex;
+	flex: 60%;
+}
+.advs{
+	display: flex;
+	flex: 10%;
+	flex-direction: column;
+}
+.articles{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	
+}
+.article{
+	flex: 1;
+	font-family: 'Noto Serif', serif;
+	border: 1px solid grey;
+	border-radius: 20px;
+	background: grey; 
+	padding: 15px;
+	margin: 10px; 
+
+}	
+.article:hover{
+	color: #30BE77;
+}
+body{
+	background: black;
+	text-align: center;
+}
+header{
+	font-family: 'Bungee Inline', cursive;
+	color: white;
+	font-size: 70px;
+	align-items: center;
+}
+.pichaga{
+	height: 250px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
